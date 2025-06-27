@@ -3,6 +3,8 @@ global enable_interrupts            ; This makes the label global so you can cal
 
 disable_interrupts:
     cli             ; Disable interrupts
+    ret
 
 enable_interrupts:
     sti             ; Enable interrupts
+    ret
